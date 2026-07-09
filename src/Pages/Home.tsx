@@ -7,7 +7,7 @@ import './pages.css'
 function Home({ SuwarData, isLoading: SuwarLoading, error: SuwarError, currentSurah, setCurrentSurah }: any) {
     const [search, setSearch] = useState('')
 
-    const { isLoading: QuranLoading, error: QuranError, data: QuranData } = QuranApi()
+    const { isLoading: QuranLoading, error: QuranError } = QuranApi()
 
 
     const handleFocus = useRef<HTMLInputElement>(null)
