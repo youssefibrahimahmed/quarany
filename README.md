@@ -87,13 +87,8 @@ npm run build
 
 ## 📸 Preview
 
-> Add screenshots here
+<img width="1907" height="913" alt="Screenshot 2026-07-10 030917" src="https://github.com/user-attachments/assets/8bee43a6-cabd-4624-89c2-441181cb017c" />
 
-Example:
-
-```
-public/screenshots/home.png
-public/screenshots/player.png
 ```
 
 ---
