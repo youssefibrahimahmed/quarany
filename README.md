@@ -1,139 +1,83 @@
-# 📖 Qurany Player
+# Qurany — Quran Audio Player
 
-A modern Quran Player built with **React**, **TypeScript**, and **TanStack Query**, allowing users to browse, search, and listen to the Holy Quran recited by **Sheikh Mohamed Siddiq El-Minshawi**.
+A Quran audio player built with **React** and **TypeScript**. Browse the Surahs of the Holy Quran and listen to recitations by **Sheikh Mohamed Siddiq El-Minshawi**.
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 https://quarany-alpha.vercel.app/
+[Open Qurany](https://quarany-alpha.vercel.app/)
 
-## 📂 Repository
+## Features
 
-🔗 https://github.com/youssefibrahimahmed/quarany
+- Browse all 114 Surahs.
+- Search for a Surah.
+- Play, pause, and resume audio.
+- Move to the next or previous Surah.
+- Control playback progress.
+- Responsive interface.
+- Fetch Surah information through TanStack Query.
 
----
-
-## ✨ Features
-
-- 📖 Browse all 114 Surahs.
-- 🔍 Search Surahs instantly.
-- ▶️ Play selected Surah.
-- ⏸️ Pause / Resume audio.
-- ⏭️ Next Surah.
-- ⏮️ Previous Surah.
-- 🎵 Audio progress slider.
-- ⚡ Fast data fetching with TanStack Query.
-- 📱 Responsive UI.
-- 🎨 Clean and modern design.
-
----
-
-## 🛠️ Built With
+## Built With
 
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 - TanStack Query
-- React Icons
 - Axios
+- React Icons
 
----
+## APIs and Audio
 
-## 📡 APIs
+- Surah list: [MP3Quran API](https://www.mp3quran.net/api/v3/suwar?language=ar)
+- Audio source: [MP3Quran](https://server10.mp3quran.net/minsh/)
 
-### Surahs API
+## Getting Started
 
-https://www.mp3quran.net/api/v3/suwar?language=ar
-
-### Audio Source
-
-https://server10.mp3quran.net/minsh/
-
----
-
-## 🚀 Installation
-
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/youssefibrahimahmed/quarany.git
-```
-
-Go to the project directory
-
-```bash
 cd quarany
 ```
 
-Install dependencies
+Install dependencies and start the development server:
 
 ```bash
 npm install
-```
-
-Run the development server
-
-```bash
 npm run dev
 ```
 
-Build for production
+Build for production:
 
 ```bash
 npm run build
 ```
 
----
+## Project Structure
 
-## 📸 Preview
-
-<img width="1907" height="913" alt="Screenshot 2026-07-10 030917" src="https://github.com/user-attachments/assets/8bee43a6-cabd-4624-89c2-441181cb017c" />
-
-```
-
----
-
-## 📁 Project Structure
-
-```
-src
-│
-├── API
-├── Components
-├── Pages
-├── assets
+```text
+src/
+├── API/
+├── Components/
+├── Pages/
+├── assets/
 ├── App.tsx
 └── main.tsx
 ```
 
----
+## What I Practiced
 
-## 📚 What I Learned
+- React component architecture and hooks.
+- TypeScript.
+- API integration and data fetching.
+- TanStack Query.
+- Audio playback controls.
+- State management and conditional rendering.
+- Search and responsive design.
 
-During this project I practiced:
+## Author
 
-- React Component Architecture
-- TypeScript
-- TanStack Query
-- React Hooks
-- State Lifting
-- Audio API
-- Conditional Rendering
-- Search & Filtering
-- Responsive Design
-- API Integration
+**Youssef Ibrahim Ahmed**
 
----
-
-## 👨‍💻 Author
-
-**Youssef Ibrahim**
-
-- LinkedIn: https://www.linkedin.com/in/youssef-ibrahim-048961286/
-- GitHub: https://github.com/youssefibrahimahmed
-
----
-
-## ⭐ Support
-
-If you like this project, don't forget to leave a ⭐ on the repository.
+- [GitHub](https://github.com/youssefibrahimahmed)
+- [LinkedIn](https://www.linkedin.com/in/youssef-ibrahim-048961286/)
